@@ -1,0 +1,60 @@
+
+#container {
+    width: 800px;
+    height: 580px;
+    margin:  auto;
+    margin-bottom: 4%;
+    border-radius: 5px;
+    position: relative;
+    background-color:rgb(57 88 155);
+}
+
+.bouton img {
+  width: 35%;
+  margin-left: 32%;
+  margin-top: 30%;
+  position: relative;
+}
+
+.bouton a{
+    color: orangered;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.logo {
+    width: 80%;
+    position: absolute;
+    top: -25%;
+    left: 12%;
+}
+
+.jouer{
+    position: absolute;
+    font-size: 150%;
+    top: 64%;
+    left: 41%;
+    border-radius: 70%;
+    background-color: white;
+    padding: 3.5%;
+    font-family: 'Fredoka One', cursive;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 350px 0 0 0;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background: url(../image/Untitled_Artwork\ \(1\).PNG);
+    animation: canard 75s linear infinite;
+}
+
+@keyframes canard {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -2122px 0;}
+}

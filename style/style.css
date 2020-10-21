@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 350px 0 0 0;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    overflow: hidden;
+    background-size: cover;
+    background: url(../image/Untitled_Artwork\ \(1\).PNG);
+    animation: canard 75s linear infinite;
+}
+
+@keyframes canard {
+  
+  0%  {background-position: 0 0;}
+  100%  {background-position: -2122px 0;}
+}
+
+h1{
+    text-align: center;
+}
+
+#container {
+    width: 790px;
+    height: 510px;
+    margin:  auto;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    position: relative;
+    background-image: url(../image/forest-scene-with-trees-and-pond-vector.jpg);
+    background-size: cover;
+    cursor:url(../image/cible1.png), auto;
+}
+
+.canard{
+    margin-bottom: 4%;
+}
+
+
+#duck {
+    position: absolute;
+}
+
+#duck img{
+    width: 60px;
+    height: 60px;
+}
+
+.score{
+    width: 790px;
+    height: 80px;
+    margin: auto;
+    margin-top: -5%;
+    background-color:rgb(98 205 237);
+}
+
+.score ul{
+    display: flex;
+    list-style: none;
+}
+
+.score li{
+    padding-left: 15%;
+    margin-top: 4%;
+}
+
+span{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.tableau div{
+    width: 150px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.tableau{
+    margin: auto;
+}
+
+.resultat{
+    font-size: 300%;
+    color: red;
+    width: 40%;
+    background-color: black;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
